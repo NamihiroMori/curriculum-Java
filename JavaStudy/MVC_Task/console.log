@@ -1,0 +1,45 @@
+情報: Serverのバージョン名:     Apache Tomcat/8.5.64 [木 5 20 11:44:40 JST 2021]
+情報: Server ビルド:            Mar 4 2021 23:14:16 UTC [木 5 20 11:44:40 JST 2021]
+情報: サーバーのバージョン番号: 8.5.64.0 [木 5 20 11:44:41 JST 2021]
+情報: OS 名:                    Windows 10 [木 5 20 11:44:41 JST 2021]
+情報: OS バージョン:            10.0 [木 5 20 11:44:41 JST 2021]
+情報: アーキテクチャ:           amd64 [木 5 20 11:44:41 JST 2021]
+情報: Java Home:                C:\pleiades\java\8\jre [木 5 20 11:44:41 JST 2021]
+情報: JVM バージョン:           1.8.0_202-b08 [木 5 20 11:44:41 JST 2021]
+情報: JVM ベンダ:               Oracle Corporation [木 5 20 11:44:41 JST 2021]
+情報: CATALINA_BASE:            C:\Users\deeds\Desktop\programming\Freeks\Java\curriculum-Java\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp0 [木 5 20 11:44:41 JST 2021]
+情報: CATALINA_HOME:            C:\pleiades\tomcat\8 [木 5 20 11:44:41 JST 2021]
+情報: コマンドライン引数:       -Dcatalina.base=C:\Users\deeds\Desktop\programming\Freeks\Java\curriculum-Java\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp0 [木 5 20 11:44:41 JST 2021]
+情報: コマンドライン引数:       -Dcatalina.home=C:\pleiades\tomcat\8 [木 5 20 11:44:41 JST 2021]
+情報: コマンドライン引数:       -Dwtp.deploy=C:\Users\deeds\Desktop\programming\Freeks\Java\curriculum-Java\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps [木 5 20 11:44:41 JST 2021]
+情報: コマンドライン引数:       -Djava.endorsed.dirs=C:\pleiades\tomcat\8\endorsed [木 5 20 11:44:41 JST 2021]
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8 [木 5 20 11:44:41 JST 2021]
+情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\pleiades\java\8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/pleiades/eclipse//jre/bin/server;C:/pleiades/eclipse//jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\HashiCorp\Vagrant\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Java\jdk-16.0.1\bin\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\deeds\AppData\Local\Microsoft\WindowsApps;C:\Users\deeds\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\deeds\AppData\Local\GitHubDesktop\bin;C:\xampp\mysql\bin;C:\Users\deeds\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Azure Data Studio\bin;C:\pleiades\eclipse;;.] に存在しません。 [木 5 20 11:44:41 JST 2021]
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。 [木 5 20 11:44:41 JST 2021]
+情報: Using a shared selector for servlet write/read [木 5 20 11:44:41 JST 2021]
+情報: Initialization processed in 1565 ms [木 5 20 11:44:41 JST 2021]
+情報: サービス [Catalina] を起動します [木 5 20 11:44:41 JST 2021]
+情報: Starting Servlet Engine: Apache Tomcat/8.5.64 [木 5 20 11:44:41 JST 2021]
+警告: [4.0] は未知のバージョン文字列です。既定値を使用します。 [木 5 20 11:44:42 JST 2021]
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [木 5 20 11:44:42 JST 2021]
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。 [木 5 20 11:44:42 JST 2021]
+情報: Server startup in 1004 ms [木 5 20 11:44:42 JST 2021]
+重大: パス[/MVC_Task]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/login.jsp] の中の[11]行目でエラーが発生しました
+Lambda expressions are allowed only at source level 1.8 or above
+8: 
+9: <%
+10:     //リクエストより社員番号を取得: 関数型インターフェース（ラムダ式）
+11:     Function<HttpServletRequest, Object[]> rmdGetResponseInfo = (rmdRequest) -> {
+12:         // request: responseBean
+13:         ResponseBean rb = (ResponseBean) request.getAttribute("responseBean");
+14:         int requestStatus = 0;
+
+
+Stacktrace:]が根本的要因と共に投げられました。 [木 5 20 11:44:44 JST 2021]
+情報: 有効なシャットダウンコマンドがシャットダウンポート経由で受信されました。 サーバーインスタンスを停止します。 [木 5 20 11:47:49 JST 2021]
+情報: ProtocolHandler ["http-nio-8080"] を一時停止します。 [木 5 20 11:47:49 JST 2021]
+情報: サービス [Catalina] を停止します [木 5 20 11:47:49 JST 2021]
+情報: ProtocolHandler ["http-nio-8080"]の停止中 [木 5 20 11:47:49 JST 2021]
+情報: ProtocolHandler ["http-nio-8080"] を破棄します。 [木 5 20 11:47:49 JST 2021]
