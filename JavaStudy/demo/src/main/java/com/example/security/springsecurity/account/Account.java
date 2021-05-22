@@ -25,8 +25,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 //実行時に宣言した各フィールド変数がカラムとして作成される
 //問１－１ DB設計に必要なアノテーションを記述
-@
-
+@Entity
 @Table(name = "accounts")
 public class Account implements UserDetails {
 
@@ -38,8 +37,7 @@ public class Account implements UserDetails {
     }
 
     // 問１－２ プライマリーキーを設定するアノテーションを記述
-    @
-
+    @Id
     @Column(nullable = false, unique = true)
     private String username;
 
